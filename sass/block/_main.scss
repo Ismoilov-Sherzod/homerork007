@@ -1,0 +1,54 @@
+.main{
+    padding: 150px 0 0 0;
+    background: $bg-dark;
+   &__subtitle{
+     font-size: 48px;
+     font-weight: 800;
+     line-height: 57.6px;
+     text-align: left;
+     color: #fff;
+
+   } 
+   &__title{
+    width: 100%;
+    height: 643px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 32px;
+    
+   }
+   &__titles{
+       font-weight: 400;
+       font-size: 36px;
+       text-align: left;
+       line-height: 50.4px;
+       color: #fff;
+       width: 398px;
+       height: 232px;
+
+   }
+   &__titless{
+       font-size: 32px;
+       font-weight: 400;
+       text-align: left;
+       line-height: 44.8px;
+       width: 600px;
+       height: 495px;
+       color: #fff;
+
+
+   }
+   &__btn{
+    display: flex;
+    gap: 16px;
+   }
+   &__btns{
+    padding: 24px;
+    background: #252525;
+    color: #fff;
+
+   }
+   
+
+}

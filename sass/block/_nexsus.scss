@@ -1,0 +1,38 @@
+.nexsus{
+    background: $bg-dark;
+
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+        cursor: pointer;
+        
+    }
+    &___subtitle{
+        color: #fff;
+        font-size: 48px;
+    }
+    &__card{
+        width: 360px;
+        background: $bg-py;
+        padding: 43px 27px 35px 27px;
+        text-align: center;
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.8px;
+            text-align: center;
+
+        }
+
+        
+
+
+        
+    }
+    &__title{
+        font-size: 24px;
+    }
+}
+  
