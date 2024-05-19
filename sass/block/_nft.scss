@@ -1,0 +1,51 @@
+.nft{
+    background: $bg-dark;
+
+    &__wrapper{
+        height: 900px;
+
+    }
+    &__card{
+        padding: 60px 280px;
+
+
+        p{
+            font-weight: 800;
+            font-size: 48px;
+            text-align: center;
+            line-height: 62.4px;
+            color: #fff;
+
+        }
+    }
+    &__btns{
+        margin-top: 46px;
+        padding: 25px ;
+    }
+    &__input{
+
+    
+        padding: 24px 284px 24px 32px;
+        border: 1px solid #FE8235;
+        background: $bg-dark;
+
+        &::placeholder{
+            font-weight: 800;
+            font-size: 18px;
+            letter-spacing: 0.15em;
+            line-height: 17.37px;
+            text-align: center;
+            color: #FE8235;
+        }
+    }
+    &__btn{
+        padding: 24px 32px;
+        border: 1px solid  #FE8235;
+        ;
+        background: $bg-gold;
+        color: #fff;
+    }
+    }
+    &__cards{
+        
+    }
