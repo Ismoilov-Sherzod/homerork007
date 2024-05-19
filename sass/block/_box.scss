@@ -1,0 +1,52 @@
+.box{
+    background: $bg-dark;
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    &__card{
+        width: 360px;
+        height: 480px;
+        background: $bg-py;
+        margin-top: 64px;
+    }
+    &__name{
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        line-height: 35.08px;
+        text-align: left;
+        color: #fff;
+        padding: 15px 171px 8px 24px;
+    }
+    &__title{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 8px 24px  ;
+        p{
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 42.1px;
+            text-align: left;
+            color: #FE8235;
+
+        }
+    }
+    &__logo{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        padding: 8px 24px;
+        p{
+            font-weight: 800;
+            font-size: 16px;
+            letter-spacing: 0.02em;
+            line-height: 28.06px;
+            text-align: left;
+            color: #fff;
+        }
+    }
+}
